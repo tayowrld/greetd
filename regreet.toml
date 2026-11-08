@@ -7,7 +7,7 @@ XCURSOR_THEME = "pxsor"
 XCURSOR_SIZE = "32"
 
 [background]
-path = "/usr/local/share/sea-greeter/summer-sky-fence-walk-live-wallpaper.mp4"
+path = "/etc/greetd/assets/wall.mp4"
 fit = "Cover"
 
 [GTK]
