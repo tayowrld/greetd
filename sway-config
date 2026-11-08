@@ -1,0 +1,11 @@
+# Isolated compositor for the login screen.
+font pango:3270 Nerd Font Mono 12
+output * bg /usr/local/share/sea-greeter/summer-sky-poster.jpg fill
+output eDP-1 scale 1.5
+input type:keyboard {
+    xkb_layout "us,ru"
+    xkb_options grp:ctrl_space_toggle
+}
+seat * xcursor_theme pxsor 32
+seat * hide_cursor 5000
+exec /bin/sh -c 'regreet; swaymsg exit'

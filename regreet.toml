@@ -1,0 +1,26 @@
+skip_selection = true
+
+[env]
+QT_QPA_PLATFORMTHEME = "qt6ct"
+QT_STYLE_OVERRIDE = "kvantum"
+XCURSOR_THEME = "pxsor"
+XCURSOR_SIZE = "32"
+
+[background]
+path = "/usr/local/share/sea-greeter/summer-sky-fence-walk-live-wallpaper.mp4"
+fit = "Cover"
+
+[GTK]
+application_prefer_dark_theme = false
+font_name = "3270 Nerd Font Mono 16"
+cursor_theme_name = "pxsor"
+icon_theme_name = "Seaside-Pixel"
+
+[appearance]
+greeting_msg = "SUMMER 2003  ·  SIGN IN TO SWAY"
+
+[widget.clock]
+format = "%H:%M  ·  %d %B"
+resolution = "30s"
+timezone = "Europe/Moscow"
+locale = "en_US"

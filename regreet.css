@@ -1,0 +1,59 @@
+/* Opaque, square 2003 desktop chrome for the Sway theme. */
+* {
+  font-family: "3270 Nerd Font Mono", "Noto Sans Mono", monospace;
+  font-size: 16px;
+  color: #554c5d;
+  text-shadow: none;
+}
+
+window { background: #1260c8; }
+
+frame.background {
+  background: #fff6ef;
+  border: 2px solid #554c5d;
+  border-radius: 0;
+  padding: 12px 16px;
+  box-shadow: none;
+}
+
+frame.background label { color: #554c5d; }
+
+/* Keep the clock below the MacBook display cutout. */
+overlay > frame.background:nth-child(3) {
+  margin-top: 70px;
+}
+
+entry, passwordentry, combobox button, button {
+  background: #fffcf5;
+  color: #554c5d;
+  border: 1px solid #957c9c;
+  border-radius: 0;
+  min-height: 40px;
+  padding: 4px 10px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+entry:focus, passwordentry:focus, combobox button:focus, button:focus {
+  background: #eee2b4;
+  border: 2px solid #554c5d;
+  outline: none;
+}
+
+button:hover, combobox button:hover {
+  background: #eee2b4;
+}
+
+button.suggested-action {
+  background: #dad5e7;
+  border: 2px solid #554c5d;
+  font-weight: bold;
+}
+
+button.suggested-action:hover { background: #eee2b4; }
+button.suggested-action label { color: #554c5d; }
+
+button.destructive-action {
+  background: #fff6ef;
+  border: 1px solid #554c5d;
+}
